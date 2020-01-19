@@ -25,6 +25,8 @@ Enter this 3 commands in your terminal:
 
 After realization please enter your data very ACCURATELY!
 
-# This is exciting experience!
-# Enjoy!
-# vk_school_bot
+ This is exciting experience!
+ 
+ Thanks for using!
+ 
+ Enjoy!
