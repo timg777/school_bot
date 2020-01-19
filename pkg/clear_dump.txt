@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo -n > homewk_mess_dump.txt
+echo -n > mess_dump.txt
