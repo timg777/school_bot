@@ -20,7 +20,7 @@ I didn't developed a universal method to add all classes and subjects.
 Enter this 3 commands in your terminal:
 
 	git clone https://github.com/timg777/vk_bot.git
-	cd bot
+	cd school_bot
 	python3 install_bot.py
 
 After realization please enter your data very ACCURATELY!
