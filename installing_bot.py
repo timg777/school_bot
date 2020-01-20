@@ -44,6 +44,6 @@ with open('pkg/data.txt', 'w') as ouf:
 
 os.system('mv pkg/* .')
 os.system('rm -rf pkg run_bot.py')
-os.system('python3 pkg/realod_bot.py')
+os.system('python3 pkg/preload.py')
 os.system('clear')
 os.system('python3 bot.py')
