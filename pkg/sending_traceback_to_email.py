@@ -1,7 +1,7 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
-# from email.mime.image import MIMEImage
-# from email.mime.application import MIMEApplication
+from email.mime.image import MIMEImage
+from email.mime.application import MIMEApplication
 from email.mime.text import MIMEText
 import os
 
