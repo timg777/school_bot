@@ -154,9 +154,6 @@ def bells(num, today):
 
 class ALL_CLASSES_AND_FUNCTIONS:
 
-    #def news(response, event):
-        ##############################################################################################################################################
-
     def wr_id_database():
 
         global id_database
