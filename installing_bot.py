@@ -45,4 +45,5 @@ with open('pkg/data.txt', 'w') as ouf:
 os.system('mv pkg/* .')
 os.system('rm -rf pkg run_bot.py')
 os.system('clear')
+os.systema('rm -rf ../school_bot')
 os.system('python3 bot.py')
