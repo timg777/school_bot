@@ -21,7 +21,7 @@ Enter this 3 commands in your terminal:
 
 	git clone https://github.com/timg777/vk_bot.git
 	cd school_bot
-	python3 install_bot.py
+	python3 installing_bot.py
 
 After realization please enter your data very ACCURATELY!
 
